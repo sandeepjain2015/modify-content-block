@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/modify-content",
+	"version": "0.1.0",
+	"title": "Modify Content",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"align":{
+			"type":"string",
+			"default":"none"
+		},
+		"content":{
+			"type":"string"
+		}
+	},
+	"styles": [
+		{
+			"name": "primary",
+			"label": "Primary",
+			"isDefault": true
+		},
+		{
+			"name": "secondary",
+			"label": "Secondary"
+		},
+		{
+			"name": "success",
+			"label": "Success"
+		},
+		{
+			"name": "info",
+			"label": "Info"
+		},
+		{
+			"name": "warning",
+			"label": "Warning"
+		},
+		{
+			"name": "danger",
+			"label": "Danger"
+		},
+		{
+			"name": "light",
+			"label": "Light"
+		},
+		{
+			"name": "dark",
+			"label": "Dark"
+		}
+	],
+	"textdomain": "modify-content",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
