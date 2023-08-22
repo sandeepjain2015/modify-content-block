@@ -8,7 +8,8 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 Example block scaffolded with Create Block tool.
 
-[screenshot-1.png](https://postimg.cc/XZtMxHbq)
+![screenshot-1](https://github.com/sandeepjain2015/modify-content-block/assets/14997279/73f1e6b1-8bd9-4569-bafd-0105a7af91b9)
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
